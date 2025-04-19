@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "IMDb Clone",
-  description: "This is the Imdb clone",
+  description: "This is the IMDb clone",
 };
 
 export default function RootLayout({ children }) {
