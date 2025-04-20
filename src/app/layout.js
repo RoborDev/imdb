@@ -20,15 +20,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="light" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Providers>
-          {/* Header */}
           <Header />
-
-          {/* Navbar */}
-
-          {/* Search Box */}
           {children}
         </Providers>
       </body>
